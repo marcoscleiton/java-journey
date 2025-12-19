@@ -1,0 +1,18 @@
+public class Operadores {
+    public static void main(String[] args) {
+        double pao = 10.50;
+        double queijo = 7.00;
+        double acucar = 1.00;
+        double desconto = 5.00;
+        int totalDeDiasNoMes = 30;
+
+        double valorTotal = pao + queijo + acucar;
+        double valorTotalComDesconto = pao + queijo + acucar - desconto;
+        double valorTotalDividido = valorTotalComDesconto / 2;
+        double valorTotalMensal = valorTotalComDesconto * TotalDeDiasNoMes;
+
+        System.out.println("Valor total = R$" + valorTotalMensal);
+
+
+    }
+}
