@@ -5,5 +5,6 @@ Aqui estão meus primeiros estudos em Java.
 Conteúdos:
 - Estrutura básica do Java
 - Variáveis
+- Tipos primitivos (int, double, char, boolean)
 - Condicionais (if/else)
 - Entrada e saída de dados
