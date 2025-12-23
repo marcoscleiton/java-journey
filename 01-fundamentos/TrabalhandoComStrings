@@ -1,0 +1,18 @@
+public class TrabalhandoComStrings {
+
+    public static void main(String[] args) {
+        
+        String nome = "Marcos";
+        String sobrenome = "Cleiton Feitoza";
+
+        int tamanhoString = nome.length();
+        boolean sãoIguais = nome.equals(sobrenome);
+        String nomeCompleto = nome.concat(sobrenome);
+        
+
+        System.out.println("Olá, " + nome.toUpperCase() + " seu nome tem " + tamanhoString + " caracteres");
+        System.out.println("Os nomes são iguais: " + sãoIguais);
+        System.out.println("Nome completo: " + nomeCompleto);
+
+
+
